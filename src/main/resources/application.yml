@@ -1,0 +1,16 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /security-sprongboot
+spring:
+  application:
+    name: security-srpringboot
+  mvc:      #视图解析器配置
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/springboot
+    username: jiangfan
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
