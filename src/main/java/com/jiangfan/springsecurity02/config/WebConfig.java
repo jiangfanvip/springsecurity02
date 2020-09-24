@@ -18,7 +18,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
  * @author LENOVO
  * @since JDK 1.8
  */
-@Configuration //相当于springmvc.xml
+@Configuration
 public class WebConfig implements WebMvcConfigurer {
 
     /**
